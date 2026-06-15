@@ -8,7 +8,7 @@ import google.generativeai as genai
 load_dotenv()
 
 genai.configure(
-    api_key=os.getenv("AIzaSyBoEPoqIVW23lPs05dZq8Xi3tTzSnXbh60")
+    api_key=os.getenv("enter api key")
 )
 
 model = genai.GenerativeModel(
